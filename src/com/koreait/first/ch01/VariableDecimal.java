@@ -1,4 +1,4 @@
-package com.koreait.first;
+package com.koreait.first.ch01;
 
 public class VariableDecimal {
     // 변수 : 값을 담을 수 있고, 값이 변할 수 있는 공간

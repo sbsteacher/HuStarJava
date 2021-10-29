@@ -1,4 +1,4 @@
-package com.koreait.first;
+package com.koreait.first.ch01;
 
 public class VariableFloat {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class VariableFloat {
         float f = 10.1F;
         double d = 10.1;
         //형변환 > 자동형변환, 강제형변환
-        d = f;
-        f = d;
+        d = f; //자동형변환
+        f = (float)d; //강제형변환 시켜준 것 (컴파일 에러는 안 생김) 실행시 언더 플로우, 오버 플로우 생길 가능성 있음.
     }
 }

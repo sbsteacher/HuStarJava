@@ -1,4 +1,4 @@
-package com.koreait.first;
+package com.koreait.first.ch01;
 
 public class Print {
     // main 메소드
