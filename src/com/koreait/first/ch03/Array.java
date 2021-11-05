@@ -1,6 +1,9 @@
 package com.koreait.first.ch03;
 
 public class Array {
+    //변수
+    // 원시타입 (프라머티브타입)
+    // 참조타입 (레퍼런스타입)
     public static void main(String[] args) {
         int[] intArr = new int[150];
 
