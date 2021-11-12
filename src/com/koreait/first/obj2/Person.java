@@ -1,6 +1,6 @@
 package com.koreait.first.obj2;
 
-public class Person {
+public class Person extends Object {
     private String name;
     private String job;
     private int age;
@@ -11,6 +11,7 @@ public class Person {
         this.job = job;
         this.age = age;
     }
+
     public void introduceMyself() {
         System.out.printf("저의 이름은 %s이고, 직업은 %s이며 나이는 %d세입니다.\n", name, job, age);
     }

@@ -9,12 +9,13 @@ public class Student extends Person {
 
     public Student(String name, String job, int age) {
         super(name, job, age);
+        System.out.println("dddd");
     }
 
-    //오버라이딩
     @Override
     public void introduceMyself() {
         System.out.printf("My name is %s, age is %d, job is %s\n", this.getName(), super.getAge(), this.getJob());
+        super.introduceMyself();
     }
 
     public void callMethodParent() {
